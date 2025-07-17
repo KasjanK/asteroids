@@ -2,13 +2,13 @@
 
 This is a classic arcade-style game where you control a spaceship navigating through an asteroid field. Your mission is to destroy incoming asteroids while avoiding collisions.
 
-### What it does
+## What it does
 It simulates a spaceship moving through a dynamic field of asteroids. The player can control the spaceship's movement and fire projectiles to destroy the asteroids. It also handles collisions between your ship and asteroids, leading to a "game over" state if your ship is destroyed.
 
-### How it works
+## How it works
 The game uses a game loop to continuously update the positions of all objects (spaceship, asteroids, projectiles) and handle player input. Objects are represented as classes with properties like position, velocity, and rotation. Collision detection algorithms are used to determine when a projectile hits an asteroid or when the spaceship collides with an asteroid. When an asteroid is destroyed, new, smaller asteroids may spawn from its remnants.
 
-### Features
+## Features
 - Player-controlled spaceship with directional movement and firing.
 - Dynamically generated asteroids that break into smaller pieces when hit.
 
